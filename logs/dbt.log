@@ -1,0 +1,32 @@
+[0m11:44:30.066069 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023984838F20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239825865A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023982D14D70>]}
+
+
+============================== 11:44:30.101005 | 228d84b0-f5d5-4324-b312-d5b82786636c ==============================
+[0m11:44:30.101005 [info ] [MainThread]: Running with dbt=1.11.9
+[0m11:44:30.103014 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\jeeva\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m11:44:34.185513 [debug] [MainThread]: Starter project path: C:\Users\jeeva\ecom\dbt_ecomm\.venv\Lib\site-packages\dbt\include\starter_project
+[0m11:44:34.228963 [info ] [MainThread]: 
+Your new dbt project "ecom" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:44:34.229928 [info ] [MainThread]: Setting up your profile.
+[0m11:44:48.177952 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:44:48.177952 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:44:48.177952 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:46:08.488812 [info ] [MainThread]: Profile ecom written to C:\Users\jeeva\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:46:08.492829 [debug] [MainThread]: Command `dbt init` succeeded at 11:46:08.492829 after 98.59 seconds
+[0m11:46:08.492829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023982346F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239A1D1E570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239A19ACBF0>]}
+[0m11:46:08.493751 [debug] [MainThread]: Flushing usage events
+[0m11:46:08.990018 [debug] [MainThread]: An error was encountered while trying to flush usage events
