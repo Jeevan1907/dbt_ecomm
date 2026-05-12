@@ -1,0 +1,7 @@
+sources:
+  - name: source
+    database: ecom_dev
+    schema: default
+    tables:
+      - name: life_expectancy  # enabled
+      - name: life_expenditure
